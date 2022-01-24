@@ -1,0 +1,2 @@
+String diamond(String s){
+}
