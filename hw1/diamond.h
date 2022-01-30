@@ -1,0 +1,1 @@
+extern int diamond(int n);
