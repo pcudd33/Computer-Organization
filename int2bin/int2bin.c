@@ -11,6 +11,7 @@ int index;
 	}*/
 
 while(n > 0){
+//this while loop pushes all 1s and 0s into the str array at index
 	if(n % 2 == 0){
 		str[index] = '0';
 		index++;
@@ -23,6 +24,7 @@ while(n > 0){
 n = n / 2;
 }
 
+//this for loop is going back through and putting them in 
 for(int i = index - 1; i >= 0; i--){
 	printf("%c", str[i]);
 }
