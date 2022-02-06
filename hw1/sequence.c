@@ -1,3 +1,4 @@
+// Needed to use the long long int here to get the longest sequence. -1
 int sequence(int n) { 
 	int length = 0;
 	while( n > 1){

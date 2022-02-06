@@ -11,8 +11,8 @@
 
 int main(void) {
 	int n;
-	printf("sum3or5 of 10 is %d\n", sum3or5(10));
-	printf("sequence of 10 is %d\n", sequence(10));
+	printf("sum3or5 of 1000 is %d\n", sum3or5(1000));
+	printf("sequence of 837799 is %d\n", sequence(837799));
 	printf("the longest sequence is %lld\n", longest());
 	while(n != -1){
 	printf("Enter a non-neative odd integer: ");
