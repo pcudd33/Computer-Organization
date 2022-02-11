@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "int2bin.h"
 
+// Seems to crash on 123456789. It shouldn't.
+
 int main(int argc, char *argv[]){
 int scanner;
 printf("Enter an int: "); 

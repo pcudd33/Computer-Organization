@@ -2,7 +2,7 @@
 
 void int2bin(int n){
 int counter;
-char str[n];
+char str[n];  // Ed: this line is a problem. n is 123456789
 int index;
 	//this also works but doesn't use the array
 	/*if(n > 0){
