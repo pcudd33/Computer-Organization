@@ -2,6 +2,7 @@
 #include "int2bin.h"
 
 // Seems to crash on 123456789. It shouldn't.
+// That was a test case. 18/20
 
 int main(int argc, char *argv[]){
 int scanner;
