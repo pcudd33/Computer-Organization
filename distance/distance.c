@@ -8,9 +8,8 @@
 	
 
 double distance(double lat1, double lng1, double lat2, double lng2){
-	printf("%lf\n", lat1);
 	lat1 = (lat1 * (M_PI / 180.0));
-	printf("%lf\n", lat1);
+	
 	lat2 = (lat2 * (M_PI / 180.0));
 	lng1 = (lng1 * (M_PI / 180.0));
 	lng2 = (lng2 * (M_PI / 180.0));
