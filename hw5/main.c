@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <string.h>
 
 int verify(char *str){
 	int len = strlen(str);
@@ -14,7 +15,8 @@ int verify(char *str){
 	}
 
 int main(int argc, char *argv[]) {
-    if (number < 0){
+	
+    if (argc < 0){
                 printf("No command line argument input");
                 return 0;
                 }
@@ -38,17 +40,17 @@ int main(int argc, char *argv[]) {
     int isdigit1 = verify(argv[1]);         //make sure that the two things we enter into the command line 
     int isdigit2 = verify(argv[2]);         //are in fact integers so the program wont crach 
     
-    if(isdigit1 = 1 && isdigit2 = 1){
+    if(isdigit1 && isdigit2 == 1){
     
         int n = atoi(argv[1]);
         int times_run = atoi(argv[2]);
         int sum = 0;
 
-        for (int i = 0; i < runs; i++) {
+        for (int i = 0; i < times_run; i++) {
             sum = sum + simulate(n);
         }
 
         // cast runs to a double
-        printf("%.2f\n", sum/(double) runs);
+        printf("%.2f\n", sum/(double) times_run);
     }
 }
